@@ -7,6 +7,8 @@ def find_manIndex(jacobian):
     manIndex = math.sqrt(abs(determinant))
     return manIndex
 
+#comments
+
 def calc_scaled_avg_manIndex(array):
     sum_array = sum(array)
     max_array = max(array)
