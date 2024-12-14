@@ -10,7 +10,7 @@ import time
 from sys import argv
 from os.path import dirname, join, abspath
 from scipy.spatial.transform import Rotation as rot
-from model_wrapper import ModelWrapper
+from helper.model_wrapper import ModelWrapper
 from qpsolvers import solve_qp
 
 class ParamIK:

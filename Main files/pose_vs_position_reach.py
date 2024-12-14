@@ -4,7 +4,7 @@ import math
 import numpy as np
 import pandas as pd
 import time
-import cl_inverse_kinematics as clik
+import helper.cl_inverse_kinematics as clik
 
 physicsClient = p.connect(p.GUI)
 p.setGravity(0,0,0)
